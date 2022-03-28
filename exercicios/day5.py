@@ -94,11 +94,27 @@ for x in range(2,101):
         print(f"+{x} = {p}, ")
 print("\n")
 
+#FizzBuzz
+for n in range (1,101):
+    if n %3==0 and n%5==0:
+        print(f"{n}, FizzBuzz, {n/15}")
+    elif n%3==0:
+        print(f"{n}, Fizz, {n/3}")
+    elif n%5==0:
+        print(f"{n}, Buzz {n/5}")
+    else:
+        print(n)
 
 
 
 
 
 
+
+#Texto truncado:
+text = "abcdefgh"
+truncated_text = text[0:4]
+
+print(truncated_text)
 
 
